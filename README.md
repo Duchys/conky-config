@@ -3,6 +3,8 @@ Customized conky configuration for showing AMD GPU usage, CPU Usage, Memory Usag
 
 This configuration is based upon umaraziz0's conky configuration https://github.com/umaraziz0/conky-conf
 
+![alt text](https://github.com/duchys/conky-config/blob/master/example.png?raw=true)
+
 # Dependencies
 radeontop
 
