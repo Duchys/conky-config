@@ -29,5 +29,4 @@ conky -m 0 -c ~/.config/conky/duchys/conky.conf # This starts Conky on first mon
 conky -m 1 -c ~/.config/conky/duchys/conky.conf # This starts Conky on secondary monitor
 
 # Command to use for automatic startup (firstly you have to set the automatic startup process, based on your DE)
-# The 10 second sleep is used to wait for your desktop to be already set up
 sh -c 'sleep 10 && conky --daemonize --pause=1 -m 1 -c ~/.config/conky/umaraziz/conky.conf'
