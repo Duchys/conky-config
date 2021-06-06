@@ -6,6 +6,7 @@ This configuration is based upon umaraziz0's conky configuration https://github.
 ![alt text](https://github.com/duchys/conky-config/blob/master/example.png?raw=true)
 
 # Dependencies
+conky
 radeontop
 
 # Installation
