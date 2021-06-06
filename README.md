@@ -11,9 +11,13 @@ radeontop
 
 # Installation
 cd /tmp
+
 git clone https://github.com/Duchys/conky-config.git
+
 cd conky-config
+
 mkdir -p ~/.config/conky/duchys
+
 cp conky.conf ~/.config/conky/duchys/.
 
 # Post Installation
@@ -21,6 +25,7 @@ rm -rf /tmp/conky-config
 
 # Initial startup
 conky -m 0 -c ~/.config/conky/duchys/conky.conf # This starts Conky on first monitor
+
 conky -m 1 -c ~/.config/conky/duchys/conky.conf # This starts Conky on secondary monitor
 
 # Command to use for automatic startup (firstly you have to set the automatic startup process, based on your DE)
